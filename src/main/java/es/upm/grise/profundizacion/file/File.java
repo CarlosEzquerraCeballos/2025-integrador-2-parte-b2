@@ -56,7 +56,7 @@ public class File {
             
         }
 
-        byte[] bytes = new byte[content.size()];
+        byte[] bytes = new byte[content.size() * 2];
         for (int i = 0; i < content.size(); i++) {
         	
             char c = content.get(i);
